@@ -4,6 +4,6 @@ alias gc="git commit -m"
 alias go="git checkout" 
 alias gs="git status"
 alias gp="git push origin"
-alias d="echo welcome@123| sudo -S chmod 777 /var/run/docker.sock"
-alias proj="cd /home/ratnesh.kumar/Documents/yapstoneWorkspace/"
+alias d="sudo -S chmod 777 /var/run/docker.sock"
+alias proj="cd /home/ratnesh.kumar/Documents/orkspace/"
 
