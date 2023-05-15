@@ -1,9 +1,11 @@
 alias r="mvn spring-boot:run -DskipTests=true -DskipITs=true"
-alias c="mvn clean install"
+alias c="mvn clean install -DskipTests=true -DskipITs=true"
 alias gc="git commit -m"
 alias go="git checkout" 
 alias gs="git status"
 alias gp="git push origin"
 alias d="sudo -S chmod 777 /var/run/docker.sock"
 alias proj="cd /home/ratnesh.kumar/Documents/orkspace/"
+alias java19="export JAVA_HOME=$(/usr/libexec/java_home -v19.0.2)"
+alias java8="export JAVA_HOME=$(/usr/libexec/java_home -v1.8.0_202)"
 
